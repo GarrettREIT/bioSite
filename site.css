@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: #002147;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #002147;
+    border-bottom: 15px solid#D6492A;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #D6492A;
+    color: #002147;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+#image {
+    align-items: center
+}
+
+#map {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #002147;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #002147;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-weight: 400;
+    float: center;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
